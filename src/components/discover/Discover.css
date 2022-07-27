@@ -1,0 +1,44 @@
+.discoverTitle {
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+}
+.discoverCards {
+  display: flex;
+  justify-content: space-between;
+}
+.discoverCard {
+  background: rgba(255, 255, 255, 0.1);
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 25px;
+}
+
+.discoverCard h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.discoverCard p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 24px;
+  width: 330px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.discoverCard .radius {
+  width: 85px;
+  height: 85px;
+  background: rgb(41, 41, 255);
+  border-radius: 50%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

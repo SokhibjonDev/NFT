@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
 
 * {
   padding: 0;
@@ -6,16 +6,66 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  user-select: node;
+  -webkit-user-drag: none;
 }
-:focus{
+:focus {
   outline: none;
 }
 body {
-  background: #0F0B33;
+  background: #0f0b33;
+  user-select: node;
+  -webkit-user-drag: none;
 }
 
 .container {
   width: 1400px;
   margin: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.discovers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.auctions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video_div {
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.partner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gucci {
+  font-size: 52px;
+  font-family: serif;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.supreme {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 4px;
 }

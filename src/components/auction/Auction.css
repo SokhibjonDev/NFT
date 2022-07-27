@@ -1,0 +1,91 @@
+.Auction {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.auctionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.cardInfo {
+  color: #fff;
+}
+.auctionTitle h1 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+.auctionTitle button {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid rgb(41, 41, 255);
+  padding: 14px 27px;
+  border-radius: 10px;
+  transition: .3s;
+  cursor: pointer;
+}
+.auctionTitle button:hover{
+  background: rgb(41, 41, 255);
+  box-shadow: 0 0 20px 1px rgb(41, 41, 255);
+}
+
+.Auction .card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+}
+.cardInfo h3 {
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+.cardInfo h3::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 1px;
+  margin-top: 10px;
+  background: #fff;
+}
+.cardInfo h3::before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 1px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.cardInfo p {
+  line-height: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.cardInfo button {
+  background: transparent;
+  color: #fff;
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nftImage {
+  width: 300px;
+}
+
+.cardImg {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}

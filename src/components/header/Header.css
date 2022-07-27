@@ -1,36 +1,76 @@
+.Header {
+  display: flex;
+  height: 95vh;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.titleImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 150px;
+}
+.titleInfo {
+  margin-left: 150px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: rgba(64, 0, 255, 0.461);
+  padding: 10px;
+}
+.titleInfo strong {
+  margin-left: 55px;
+}
+.titleImg img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.titleImg::after {
+  content: "";
+  display: block;
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(180deg, transparent, rgba(64, 0, 255, 0.461));
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 150px;
+}
 .title {
-    width: 600px;
-    color: #fff;
+  width: 600px;
+  color: #fff;
 }
 
 .title h1 {
-    font-size: 52px;
-    letter-spacing: 2px;
-    margin-top: 150px;
-    margin-bottom: 30px;
+  font-size: 52px;
+  letter-spacing: 2px;
+  margin-top: 150px;
+  margin-bottom: 30px;
 }
 
 .title p {
-    font-weight: 300;
-    letter-spacing: 2px;
-    font-size: 14px;
-    line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .title button {
-    background: rgb(41, 41, 255);
-    color: #fff;
-    padding: 20px 40px;
-    border-radius: 10px;
-    font-size: 17px;
-    letter-spacing: 2px;
-    margin-top: 30px;
-    cursor: pointer;
-    transition: .4s;
-    border: none;
+  background: rgb(41, 41, 255);
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  border: none;
 }
 
 .title button:hover {
-    box-shadow: 0 0 15px 1px blue;
-    transform: scale(1.030);
+  box-shadow: 0 0 15px 1px blue;
+  transform: scale(1.03);
 }
