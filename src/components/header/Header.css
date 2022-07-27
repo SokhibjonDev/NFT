@@ -1,0 +1,36 @@
+.title {
+    width: 600px;
+    color: #fff;
+}
+
+.title h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.title p {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.title button {
+    background: rgb(41, 41, 255);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+}
+
+.title button:hover {
+    box-shadow: 0 0 15px 1px blue;
+    transform: scale(1.030);
+}
