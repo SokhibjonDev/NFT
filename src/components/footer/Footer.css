@@ -1,0 +1,30 @@
+.Footer p {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Footer {
+    display: flex;
+    width: 1400px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.Footer h5 {
+    color: #c1c1c1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Footer a {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 30px;
+}

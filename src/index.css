@@ -10,9 +10,11 @@
   user-select: node;
   -webkit-user-drag: none;
 }
+
 :focus {
   outline: none;
 }
+
 body {
   background: #0f0b33;
   user-select: node;
@@ -33,6 +35,7 @@ body {
   justify-content: space-between;
   margin-bottom: 200px;
 }
+
 .auctions {
   display: flex;
   justify-content: space-between;
@@ -45,6 +48,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .video {
   width: 100%;
   height: auto;

@@ -2,7 +2,7 @@ import "./Auction.css";
 
 function Auction(props) {
   return (
-    <div className="Auction">
+    <div id="Auction" className="Auction">
       <div className="card">
         <div className="cardImg">
           <img className="nftImage" src={props.img} alt="" />

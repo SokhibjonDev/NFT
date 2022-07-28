@@ -15,14 +15,14 @@ function Navbar() {
             <a href="#!">Discover </a>
           </li>
           <li>
-            <a href="../Auction.jsx">Auctions </a>
+            <a href="#!">Auctions </a>
           </li>
           <li>
-            <a href="#!">Blog </a>
+            <a href="#!"> Partner</a>
           </li>
 
           <li>
-            <a href="#!">NFTs </a>
+            <a href="#!">Trailer </a>
           </li>
         </ul>
         <a href="#!" className="Number">

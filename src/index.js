@@ -6,6 +6,8 @@ import Header from "./components/header/Header";
 import Discover from "./components/discover/Discover";
 import Auction from "./components/auction/Auction";
 import Blog from "./components/blog/Blog";
+import Footer from "./components/footer/Footer";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -39,25 +41,25 @@ root.render(
           img="/images/nft-hero.png"
           title="CryptoPunks"
           paragraph="2M $ "
-          button="But"
+          button="Buy"
         />
         <Auction
           img="/images/nft-hero-2.svg"
           title="Doodles"
           paragraph="2.000 $ "
-          button="But"
+          button="Buy"
         />
         <Auction
           img="/images/nft-hero-3.svg"
           title="Bored Ape Yacht"
           paragraph="5M $ "
-          button="But"
+          button="Buy"
         />
         <Auction
           img="/images/nft-hero-4.svg"
           title="Capsule House"
           paragraph="80.000 $ "
-          button="But"
+          button="Buy"
         />
       </div>
       <div className="partner">
@@ -76,7 +78,9 @@ root.render(
         autoPlay
         loop
         controls
+        muted
       ></video>
     </div>
+    <Footer />
   </React.StrictMode>
 );

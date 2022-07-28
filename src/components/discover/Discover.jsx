@@ -2,7 +2,7 @@ import "./Discover.css";
 
 function Discover(props) {
   return (
-    <div className="Discover">
+    <div id="Discover" className="Discover">
       <div className="discoverCard">
         <div className="radius">
           {props.radius}

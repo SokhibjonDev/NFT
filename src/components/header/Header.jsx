@@ -2,7 +2,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="Header">
+    <div id="Header" className="Header">
       <div className="title">
         <h1>
           Discover a New Era <br /> of Crypto Currency
